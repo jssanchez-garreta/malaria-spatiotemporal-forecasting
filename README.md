@@ -28,6 +28,7 @@ Official repository for the multi-regional benchmark study evaluating statistica
 
 ---
 
+```text
 ## 🚀 Getting Started
 Prerequisites
 Ensure you have Python 3.9+ installed. Clone the repository and install the required dependencies:
@@ -35,8 +36,6 @@ Ensure you have Python 3.9+ installed. Clone the repository and install the requ
 git clone [https://github.com/jssanchez-garreta/malaria-spatiotemporal-forecasting.git](https://github.com/jssanchez-garreta/malaria-spatiotemporal-forecasting.git)
 cd malaria-spatiotemporal-forecasting
 pip install -r requirements.txt
-
----
 
 ---
 
@@ -52,12 +51,6 @@ Climatic & Environmental: Temperature (mean, min, max), precipitation, land surf
 Temporal Lags: Autoregressive features (lag1, ..., lag12) capturing epidemiological memory.
 
 Spatial Identifiers: Eco-climatic region encodings and spatial adjacency indicators across 340 administrative units.
-
----
-
-## 🔬 Model Benchmarking Summary
-
-ParadigmModelRMSEMAER²Deep LearningLSTM19.6214.120.9689Deep LearningGRU20.1514.500.9654Deep LearningTemporal Transformer20.8815.020.9610Tree EnsemblesLightGBM20.0414.280.9671Tree EnsemblesXGBoost20.4514.650.9632Tree EnsemblesRandom Forest21.3015.100.9580Statistical PanelMixed-Effects20.9013.660.9612Statistical PanelGAM21.0513.950.9601BaselineARIMA28.4019.80
 
 ---
 
