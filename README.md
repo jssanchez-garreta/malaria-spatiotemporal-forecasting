@@ -13,6 +13,7 @@ Official repository for the multi-regional benchmark study evaluating statistica
 
 ---
 
+```text
 ## 🛠️ Repository Structure
 
 ├── data/                  # Preprocessed epidemiological and eco-climatic datasets
@@ -28,6 +29,7 @@ Official repository for the multi-regional benchmark study evaluating statistica
 ---
 
 ## 🚀 Getting Started
+
 Prerequisites
 Ensure you have Python 3.9+ installed. Clone the repository and install the required dependencies:
 
@@ -37,7 +39,9 @@ pip install -r requirements.txt
 
 ---
 
+```text
 ## 📊 Dataset Overview
+
 The study leverages monthly epidemiological and eco-climatic observations spanning 2000–2024:
 
 Target Variable: Malaria incidence rate per 1,000 population.
@@ -52,7 +56,14 @@ Spatial Identifiers: Eco-climatic region encodings and spatial adjacency indicat
 
 ---
 
+```text
+## 🔬 Model Benchmarking Summary
+
+ParadigmModelRMSEMAER²Deep LearningLSTM19.6214.120.9689Deep LearningGRU20.1514.500.9654Deep LearningTemporal Transformer20.8815.020.9610Tree EnsemblesLightGBM20.0414.280.9671Tree EnsemblesXGBoost20.4514.650.9632Tree EnsemblesRandom Forest21.3015.100.9580Statistical PanelMixed-Effects20.9013.660.9612Statistical PanelGAM21.0513.950.9601BaselineARIMA28.4019.80
+---
+
 ## 📜 Citation & License
+
 If you use this dataset, codebase, or benchmarking framework in your research, please cite our study:
 
 @article{sanchez2026malaria,
