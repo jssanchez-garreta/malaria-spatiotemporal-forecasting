@@ -9,7 +9,6 @@ statsmodels>=0.13.5
 pygam>=0.8.0
 
 # Tree Ensembles
-randomforest-regressor
 xgboost>=1.7.0
 lightgbm>=3.3.0
 
