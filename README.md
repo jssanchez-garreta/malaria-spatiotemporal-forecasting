@@ -15,7 +15,6 @@ Official repository for the multi-regional benchmark study evaluating statistica
 
 ## 🛠️ Repository Structure
 
-```text
 ├── data/                  # Preprocessed epidemiological and eco-climatic datasets
 ├── models/                # Implementation of predictive paradigms
 │   ├── statistical/       # ARIMA, GAM, Linear Mixed-Effects
@@ -28,7 +27,6 @@ Official repository for the multi-regional benchmark study evaluating statistica
 
 ---
 
-```text
 ## 🚀 Getting Started
 Prerequisites
 Ensure you have Python 3.9+ installed. Clone the repository and install the required dependencies:
