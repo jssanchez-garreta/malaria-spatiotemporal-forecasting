@@ -32,6 +32,7 @@ Ensure you have Python 3.9+ installed. Clone the repository and install the requ
 git clone https://github.com/jssanchez-garreta/malaria-spatiotemporal-forecasting.git
 cd malaria-spatiotemporal-forecasting
 pip install -r requirements.txt
+```
 
 ---
 
@@ -63,11 +64,13 @@ The study leverages monthly epidemiological and eco-climatic observations (2000â
 
 If you use this dataset or codebase, please cite our study:
 
+```bibtex
 @article{sanchez2026malaria,
   title={Uncertainty-aware and interpretable machine learning for multi-regional malaria incidence forecasting: A 25-year eco-climatic benchmark in sub-Saharan Africa},
   author={S{\'a}nchez-Marqu{\'e}s, R., S{\'a}nchez, J.S.},
   journal={Computers in Biology and Medicine},
   year={2026}
 }
+```
 
 Distributed under the Apache 2.0 License. See LICENSE for more information.
