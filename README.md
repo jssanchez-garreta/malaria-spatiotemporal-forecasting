@@ -60,7 +60,6 @@ The study leverages monthly epidemiological and eco-climatic observations (2000â
 
 ---
 
-''text
 ## Citation & License
 
 If you use this dataset or codebase, please cite our study:
