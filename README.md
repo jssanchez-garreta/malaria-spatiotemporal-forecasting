@@ -1,60 +1,51 @@
 # Uncertainty-Aware and Interpretable Machine Learning for Multi-Regional Malaria Incidence Forecasting: A 25-Year Eco-Climatic Benchmark in Sub-Saharan Africa
 
-Official repository for the multi-regional benchmark study evaluating statistical, tree-based, and deep neural network models coupled with Split Conformal Prediction and Explainable AI (XAI) for malaria forecasting across 340 administrative regions in 20 sub-Saharan African countries (2000–2024).
+Official repository for the multi-regional benchmark study evaluating statistical, tree-based, and deep neural network models coupled with Split Conformal Prediction and Explainable AI (XAI) for malaria forecasting across 340 administrative regions in sub-Saharan Africa (2000–2024).
 
 ---
 
-## 📌 Key Highlights
+## Key Highlights
 
-* **Multi-Regional Benchmark:** Comprehensive evaluation of 9 predictive architectures (ARIMA, GAM, Mixed-Effects, Random Forest, XGBoost, LightGBM, LSTM, GRU, Temporal Transformer) across 340 administrative regions spanning 25 years.
-* **Guaranteed Uncertainty Quantification:** Integration of Split Conformal Prediction yielding distribution-free 95% prediction intervals with >98.9% empirical coverage and narrow interval width (MPIW ≤ 132.66).
-* **Mechanistic Interpretability:** SHAP and Partial Dependence Plot (PDP) analyses isolating historical persistence (incidence_lag1) and non-linear climate forcing, including optimal transmission thermal zones (24°C–27°C).
-* **Eco-Climatic Stratification:** Model evaluation across diverse climatic regimes, highlighting performance trade-offs in seasonal Sahelian versus topographically complex Highland regions.
-
----
-
-```text
-## 🛠️ Repository Structure
-
-├── data/                  # Preprocessed epidemiological and eco-climatic datasets
-├── models/                # Implementation of predictive paradigms
-│   ├── statistical/       # ARIMA, GAM, Linear Mixed-Effects
-│   ├── tree_based/        # Random Forest, XGBoost, LightGBM
-│   └── deep_learning/     # LSTM, GRU, Temporal Transformer
-├── conformal/             # Split Conformal Prediction algorithms & interval scoring
-├── xai/                   # SHAP value extraction & PDP visualization scripts
-├── requirements.txt       # Environment dependencies and version specs
-└── README.md              # Project documentation
+- **Multi-Regional Benchmark:** Comprehensive evaluation of 9 predictive architectures across 340 administrative regions spanning 25 years.
+- **Guaranteed Uncertainty Quantification:** Integration of Split Conformal Prediction yielding distribution-free 95% prediction intervals with >98.9% empirical coverage.
+- **Mechanistic Interpretability:** SHAP and PDP analyses isolating historical persistence and non-linear climate forcing (24°C–27°C thermal optimal zones).
+- **Eco-Climatic Stratification:** Model evaluation across diverse climatic regimes (Sahelian vs. Highland zones).
 
 ---
 
-## 🚀 Getting Started
+## Repository Structure
+
+- **data/**: Preprocessed epidemiological and eco-climatic datasets
+- **models/**: Implementation of predictive paradigms (statistical, tree-based, deep learning)
+- **conformal/**: Split Conformal Prediction algorithms & interval scoring
+- **xai/**: SHAP value extraction & PDP visualization scripts
+- **requirements.txt**: Environment dependencies
+
+---
+
+## Getting Started
 
 ### Prerequisites
 Ensure you have Python 3.9+ installed. Clone the repository and install the required dependencies:
 
-```bash
 git clone https://github.com/jssanchez-garreta/malaria-spatiotemporal-forecasting.git
 cd malaria-spatiotemporal-forecasting
 pip install -r requirements.txt
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
-The study leverages monthly epidemiological and eco-climatic observations spanning 2000–2024:
-* **Target Variable:** Malaria incidence rate per 1,000 population.
-* **Predictor Domains:**
-  * **Climatic & Environmental:** Temperature (mean, min, max), precipitation, land surface temperature (LST), relative humidity, and vegetation indices (NDVI/EVI).
-  * **Temporal Lags:** Autoregressive features (lag1, ..., lag12) capturing epidemiological memory.
-  * **Spatial Identifiers:** Eco-climatic region encodings and spatial adjacency indicators across 340 administrative units.
+The study leverages monthly epidemiological and eco-climatic observations (2000–2024):
+- **Target Variable:** Malaria incidence rate per 1,000 population.
+- **Predictors:** Climate variables (temperature, precipitation, LST, humidity, NDVI), temporal lags (lag1–lag12), and regional encodings.
 
 ---
 
-## 🔬 Model Benchmarking Summary
+## Model Benchmarking Summary
 
-| Paradigm | Model | RMSE | MAE | R² |
-| --- | --- | --- | --- | --- |
+| Paradigm | Model | RMSE | MAE | R2 |
+| :--- | :--- | :--- | :--- | :--- |
 | Deep Learning | LSTM | 19.62 | 14.12 | 0.9689 |
 | Deep Learning | GRU | 20.15 | 14.50 | 0.9654 |
 | Deep Learning | Temporal Transformer | 20.88 | 15.02 | 0.9610 |
@@ -64,11 +55,12 @@ The study leverages monthly epidemiological and eco-climatic observations spanni
 | Statistical Panel | Mixed-Effects | 20.90 | 13.66 | 0.9612 |
 | Statistical Panel | GAM | 21.05 | 13.95 | 0.9601 |
 | Baseline | ARIMA | 28.40 | 19.80 | 0.8920 |
+
 ---
 
-## 📜 Citation & License
+## Citation & License
 
-If you use this dataset, codebase, or benchmarking framework in your research, please cite our study:
+If you use this dataset or codebase, please cite our study:
 
 @article{sanchez2026malaria,
   title={Uncertainty-aware and interpretable machine learning for multi-regional malaria incidence forecasting: A 25-year eco-climatic benchmark in sub-Saharan Africa},
