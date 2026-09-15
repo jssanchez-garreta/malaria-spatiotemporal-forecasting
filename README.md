@@ -33,6 +33,7 @@ Official repository for the multi-regional benchmark study evaluating statistica
 ### Prerequisites
 Ensure you have Python 3.9+ installed. Clone the repository and install the required dependencies:
 
+```bash
 git clone https://github.com/jssanchez-garreta/malaria-spatiotemporal-forecasting.git
 cd malaria-spatiotemporal-forecasting
 pip install -r requirements.txt
