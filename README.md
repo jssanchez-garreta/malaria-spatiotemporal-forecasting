@@ -1,6 +1,6 @@
 # Uncertainty-Aware and Interpretable Machine Learning for Multi-Regional Malaria Incidence Forecasting: A 25-Year Eco-Climatic Benchmark in Sub-Saharan Africa
 
-<a href="https://doi.org/10.5281/zenodo.12774578"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.12774578.svg" alt="DOI"></a>
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.12774578-blue.svg)](https://doi.org/10.5281/zenodo.12774578)
 
 Official repository for the multi-regional benchmark study evaluating statistical, tree-based, and deep neural network models coupled with Split Conformal Prediction and Explainable AI (XAI) for malaria forecasting across 340 administrative regions in sub-Saharan Africa (2000–2024).
 
