@@ -1,4 +1,4 @@
-# Uncertainty-Aware and Interpretable Machine Learning for Multi-Regional Malaria Incidence Forecasting: A 25-Year Eco-Climatic Benchmark in Sub-Saharan Africa
+# Multi-regional malaria incidence forecasting in sub-Saharan Africa: A 25-year eco-climatic benchmark using interpretable and uncertainty-aware machine learning
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.12774578-blue.svg)](https://doi.org/10.5281/zenodo.12774578)
 
