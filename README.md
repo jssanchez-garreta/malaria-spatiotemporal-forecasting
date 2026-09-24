@@ -68,9 +68,9 @@ If you use this dataset or codebase, please cite our study:
 
 ```bibtex
 @article{sanchez2026malaria,
-  title={Uncertainty-aware and interpretable machine learning for multi-regional malaria incidence forecasting: A 25-year eco-climatic benchmark in sub-Saharan Africa},
-  author={Sánchez-Marqués, R., Sánchez, J.S.},
-  journal={Computers in Biology and Medicine},
+  title={Multi-regional malaria incidence forecasting in sub-Saharan Africa: A 25-year eco-climatic benchmark using interpretable and uncertainty-aware machine learning},
+  author={Sánchez, J.S., Sánchez-Marqués, R.},
+  journal={Acta Tropica},
   year={2026}
 }
 ```
